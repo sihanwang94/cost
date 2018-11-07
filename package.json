@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^6.1.0",
     "@angular/platform-browser-dynamic": "^6.1.0",
     "@angular/router": "^6.1.0",
+    "@nebular/auth": "^2.0.2",
+    "@nebular/security": "^2.0.2",
     "@nebular/theme": "^2.0.2",
     "core-js": "^2.5.4",
     "nebular-icons": "^1.1.0",
