@@ -26,3 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # cost
+
+# Authentication and Login
+
+* Client logs in and the credentials are sent to the server
+* If the credentials are correct, the server generates a token and sends it as a response to the client
+* Client receives and stores the token in Local Storage
+* Client then sends token to server on subsequent requests within the request header
