@@ -7,8 +7,8 @@ const routes: Routes = [{
   path: '',
   component: PagesComponent,
   children: [{
-    path: 'cost',
-    loadChildren: './cost/cost.module#CostModule',
+    path: 'vocab',
+    loadChildren: './vocab/vocab.module#VocabModule',
   },],
 }];
 
