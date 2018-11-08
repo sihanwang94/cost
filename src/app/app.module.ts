@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AlertComponent } from './app/_directives/alert.component';
-import { LoginComponent } from './app/auth/login/login.component';
-import { RegisterComponent } from './app/auth/register/register.component';
+import { AlertComponent } from './_directives/alert.component';
+import { LoginComponent } from './auth/login/login.component';
+import { RegisterComponent } from './auth/register/register.component';
 
 
 @NgModule({
